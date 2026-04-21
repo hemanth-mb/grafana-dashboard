@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "k8s_views_ns",
+    "name": "k8s_views_ns-brand-new",
     "namespace": "default",
     "uid": "612bfb14-b217-4757-9a87-3135ea5ab4f6",
     "resourceVersion": "1776703534002980",
