@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "ad426sb-prod-01",
+    "name": "ad426sb-prod-01-github",
     "namespace": "default",
     "uid": "180fef56-71fe-43ad-b9eb-01b56802a800",
     "resourceVersion": "1776753467491985",
