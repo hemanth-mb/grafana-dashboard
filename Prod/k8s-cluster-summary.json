@@ -45,7 +45,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_status_capacity_cpu_cores)",
+                        "expr": "sum(kube_node_status_capacity_cpu_cores{node=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1,
                         "legendFormat": "allocatable"
@@ -206,7 +206,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_status_allocatable_memory_bytes)",
+                        "expr": "sum(kube_node_status_allocatable_memory_bytes{node=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1,
                         "legendFormat": "allocatable"
@@ -367,7 +367,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(node_filesystem_size) - sum(node_filesystem_free)",
+                        "expr": "sum(node_filesystem_size{nodename=~\"$node\"}) - sum(node_filesystem_free{nodename=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1,
                         "legendFormat": "usage"
@@ -990,7 +990,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_info)",
+                        "expr": "sum(kube_node_info{node=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -1084,7 +1084,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_status_condition{condition=\"OutOfDisk\", status=\"true\"})",
+                        "expr": "sum(kube_node_status_condition{node=~\"$node\", condition=\"OutOfDisk\", status=\"true\"})",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -1181,7 +1181,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_spec_unschedulable)",
+                        "expr": "sum(kube_node_spec_unschedulable{node=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -1969,7 +1969,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_pod_info) / sum(kube_node_status_allocatable_pods) * 100",
+                        "expr": "sum(kube_pod_info{node=~\"$node\"}) / sum(kube_node_status_allocatable_pods{node=~\"$node\"}) * 100",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -2167,7 +2167,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(delta(kube_pod_container_status_restarts_total{namespace!=\"kube-system\"}[30m]))",
+                        "expr": "sum(delta(kube_pod_container_status_restarts_total{namespace=~\"$namespace\"}[30m]))",
                         "format": "time_series",
                         "intervalFactor": 1,
                         "legendFormat": ""
@@ -2291,12 +2291,42 @@
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
-                "defaults": {},
+                "defaults": {
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "color": "green",
+                        "value": 0
+                      },
+                      {
+                        "color": "red",
+                        "value": 80
+                      }
+                    ]
+                  }
+                },
                 "overrides": []
               },
-              "options": {}
+              "options": {
+                "colorMode": "value",
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto",
+                "percentChangeColorMode": "standard",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "showPercentChange": false,
+                "textMode": "auto",
+                "wideLayout": true
+              }
             },
-            "version": ""
+            "version": "13.0.1"
           }
         }
       },
@@ -2343,12 +2373,42 @@
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
-                "defaults": {},
+                "defaults": {
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "color": "green",
+                        "value": 0
+                      },
+                      {
+                        "color": "red",
+                        "value": 80
+                      }
+                    ]
+                  }
+                },
                 "overrides": []
               },
-              "options": {}
+              "options": {
+                "colorMode": "value",
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto",
+                "percentChangeColorMode": "standard",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "showPercentChange": false,
+                "textMode": "auto",
+                "wideLayout": true
+              }
             },
-            "version": ""
+            "version": "13.0.1"
           }
         }
       },
@@ -2395,12 +2455,42 @@
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
-                "defaults": {},
+                "defaults": {
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "color": "green",
+                        "value": 0
+                      },
+                      {
+                        "color": "red",
+                        "value": 80
+                      }
+                    ]
+                  }
+                },
                 "overrides": []
               },
-              "options": {}
+              "options": {
+                "colorMode": "value",
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto",
+                "percentChangeColorMode": "standard",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "showPercentChange": false,
+                "textMode": "auto",
+                "wideLayout": true
+              }
             },
-            "version": ""
+            "version": "13.0.1"
           }
         }
       },
@@ -2447,12 +2537,42 @@
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
-                "defaults": {},
+                "defaults": {
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "color": "green",
+                        "value": 0
+                      },
+                      {
+                        "color": "red",
+                        "value": 80
+                      }
+                    ]
+                  }
+                },
                 "overrides": []
               },
-              "options": {}
+              "options": {
+                "colorMode": "value",
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto",
+                "percentChangeColorMode": "standard",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "showPercentChange": false,
+                "textMode": "auto",
+                "wideLayout": true
+              }
             },
-            "version": ""
+            "version": "13.0.1"
           }
         }
       },
@@ -2499,12 +2619,42 @@
             "kind": "VizConfig",
             "spec": {
               "fieldConfig": {
-                "defaults": {},
+                "defaults": {
+                  "thresholds": {
+                    "mode": "absolute",
+                    "steps": [
+                      {
+                        "color": "green",
+                        "value": 0
+                      },
+                      {
+                        "color": "red",
+                        "value": 80
+                      }
+                    ]
+                  }
+                },
                 "overrides": []
               },
-              "options": {}
+              "options": {
+                "colorMode": "value",
+                "graphMode": "area",
+                "justifyMode": "auto",
+                "orientation": "auto",
+                "percentChangeColorMode": "standard",
+                "reduceOptions": {
+                  "calcs": [
+                    "lastNotNull"
+                  ],
+                  "fields": "",
+                  "values": false
+                },
+                "showPercentChange": false,
+                "textMode": "auto",
+                "wideLayout": true
+              }
             },
-            "version": ""
+            "version": "13.0.1"
           }
         }
       },
@@ -2526,7 +2676,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_pod_container_resource_requests_cpu_cores) / sum(kube_node_status_allocatable_cpu_cores) * 100",
+                        "expr": "sum(kube_pod_container_resource_requests_cpu_cores{namespace=~\"$namespace\"}) / sum(kube_node_status_allocatable_cpu_cores{node=~\"$node\"}) * 100",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -2626,7 +2776,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_pod_container_resource_requests_memory_bytes) / sum(kube_node_status_allocatable_memory_bytes) * 100",
+                        "expr": "sum(kube_pod_container_resource_requests_memory_bytes{namespace=~\"$namespace\"}) / sum(kube_node_status_allocatable_memory_bytes{node=~\"$node\"}) * 100",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -2726,7 +2876,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "(sum (node_filesystem_size) - sum (node_filesystem_free)) / sum (node_filesystem_size)",
+                        "expr": "(sum(node_filesystem_size{nodename=~\"$node\"}) - sum(node_filesystem_free{nodename=~\"$node\"})) / sum(node_filesystem_size{nodename=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1
                       },
@@ -2826,7 +2976,7 @@
                       "group": "prometheus",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "sum(kube_node_status_allocatable_pods)",
+                        "expr": "sum(kube_node_status_allocatable_pods{node=~\"$node\"})",
                         "format": "time_series",
                         "intervalFactor": 1,
                         "legendFormat": "allocatable"
@@ -3557,9 +3707,7 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": [
-              "All"
-            ],
+            "text": "All",
             "value": [
               "$__all"
             ]
@@ -3597,7 +3745,9 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": "All",
+            "text": [
+              "All"
+            ],
             "value": [
               "$__all"
             ]
