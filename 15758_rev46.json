@@ -3029,7 +3029,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes / Views / Namespaces",
-  "uid": "k8s_views_ns_archived",
+  "uid": "k8s_views_ns-archived",
   "version": 46,
   "weekStart": "",
   "gnetId": 15758
