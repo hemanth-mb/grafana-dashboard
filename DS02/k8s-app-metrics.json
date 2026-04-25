@@ -3,7 +3,7 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "k8s-app-metrics-metrics-ds02",
-    "namespace": "default",
+    "namespace": "metrics-ds02",
     "uid": "ebd8d9d2-83b9-4aa2-9d30-8edaf58d3ef0",
     "resourceVersion": "1776781738936990",
     "generation": 3,
