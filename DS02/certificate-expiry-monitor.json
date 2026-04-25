@@ -2,21 +2,23 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "ad426sb-prod-01-github",
+    "name": "ad426sb-single-prjname-clstname",
     "namespace": "default",
-    "uid": "180fef56-71fe-43ad-b9eb-01b56802a800",
-    "resourceVersion": "1776753467491985",
-    "generation": 10,
-    "creationTimestamp": "2026-04-21T06:33:50Z",
+    "uid": "1aa31b33-2d49-4c18-9be5-a54dde96eee6",
+    "resourceVersion": "1776785412486004",
+    "generation": 4,
+    "creationTimestamp": "2026-04-21T15:25:21Z",
     "labels": {
-      "grafana.app/deprecatedInternalID": "1843261900046336"
+      "grafana.app/deprecatedInternalID": "1977020740415488"
     },
     "annotations": {
       "grafana.app/createdBy": "user:beqpfu8ugu8sga",
-      "grafana.app/folder": "",
+      "grafana.app/folder": "bfjrl3rxy2igwf",
       "grafana.app/saved-from-ui": "Grafana v13.0.1 (a100054f21)",
       "grafana.app/updatedBy": "user:beqpfu8ugu8sga",
-      "grafana.app/updatedTimestamp": "2026-04-21T06:37:47Z"
+      "grafana.app/updatedTimestamp": "2026-04-21T15:30:12Z",
+      "grafana.app/folderTitle": "New-dashboards",
+      "grafana.app/folderUrl": "/dashboards/f/bfjrl3rxy2igwf/new-dashboards"
     }
   },
   "spec": {
@@ -42,7 +44,7 @@
       }
     ],
     "cursorSync": "Off",
-    "description": "Monitors TLS/SSL certificate expiry across Nginx Ingress, Envoy, Istio, and Kubelet components (Prometheus-SLIS-Dev)",
+    "description": "Monitors TLS/SSL certificate expiry across Nginx Ingress, Envoy, Istio, and Kubelet components (Prometheus-SLIS-Prod-01)",
     "editable": true,
     "elements": {
       "panel-10": {
@@ -455,7 +457,6 @@
             "spec": {
               "options": {
                 "cellHeight": "sm",
-                "frameIndex": 18,
                 "showHeader": true,
                 "sortBy": [
                   {
@@ -1043,7 +1044,7 @@
             "spec": {
               "title": "📊 Overview",
               "collapse": false,
-              "hideHeader": true,
+              "hideHeader": false,
               "fillScreen": false,
               "layout": {
                 "kind": "GridLayout",
@@ -1246,7 +1247,7 @@
       "hideTimepicker": false,
       "fiscalYearStartMonth": 0
     },
-    "title": "Certificate Expiry Monitor - Prod-01",
+    "title": "Certificate Expiry Monitor",
     "variables": [],
     "preferences": {
       "layout": {

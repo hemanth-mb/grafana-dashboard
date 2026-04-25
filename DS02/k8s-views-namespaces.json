@@ -2,21 +2,21 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "k8s_views_ns-brand-new",
+    "name": "k8s-views-ns-prjname-clstname",
     "namespace": "default",
-    "uid": "612bfb14-b217-4757-9a87-3135ea5ab4f6",
-    "resourceVersion": "1776703534002980",
-    "generation": 2,
-    "creationTimestamp": "2026-04-20T15:19:00Z",
+    "uid": "5466b163-f3db-4924-800f-1779b4ba0626",
+    "resourceVersion": "1776783284220019",
+    "generation": 1,
+    "creationTimestamp": "2026-04-21T14:54:44Z",
     "labels": {
-      "grafana.app/deprecatedInternalID": "1613035854503936"
+      "grafana.app/deprecatedInternalID": "1969315701309440"
     },
     "annotations": {
       "grafana.app/createdBy": "user:beqpfu8ugu8sga",
-      "grafana.app/folder": "",
+      "grafana.app/folder": "bfjrl3rxy2igwf",
       "grafana.app/saved-from-ui": "Grafana v13.0.1 (a100054f21)",
-      "grafana.app/updatedBy": "user:beqpfu8ugu8sga",
-      "grafana.app/updatedTimestamp": "2026-04-20T16:45:33Z"
+      "grafana.app/folderTitle": "New-dashboards",
+      "grafana.app/folderUrl": "/dashboards/f/bfjrl3rxy2igwf/new-dashboards"
     }
   },
   "spec": {
