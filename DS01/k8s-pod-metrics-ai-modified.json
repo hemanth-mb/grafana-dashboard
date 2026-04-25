@@ -65,7 +65,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_network_receive_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (pod)",
@@ -88,7 +88,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "- sum(rate(container_network_transmit_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (pod)",
@@ -213,7 +213,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_cpu_usage_seconds_total{container!=\"\",pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (pod)",
@@ -337,7 +337,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_cpu_usage_seconds_total{container!=\"\",pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (container)",
@@ -461,7 +461,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_working_set_bytes{container!=\"\",pod=~\"$Pod\",node=~\"$Node\"}) by (pod)",
@@ -586,7 +586,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_working_set_bytes{container!=\"\",pod=~\"$Pod\",node=~\"$Node\"}) by (container)",
@@ -711,7 +711,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_network_receive_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (pod)",
@@ -734,7 +734,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "- sum(rate(container_network_transmit_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m])) by (pod)",
@@ -859,7 +859,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_network_receive_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m]))",
@@ -882,7 +882,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "- sum(rate(container_network_transmit_bytes_total{pod=~\"$Pod\",node=~\"$Node\"}[1m]))",
@@ -1081,7 +1081,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_working_set_bytes{pod=~\"$Pod\",node=~\"$Node\"})",
@@ -1175,7 +1175,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(machine_memory_bytes{node=~\"$Node\"})",
@@ -1269,7 +1269,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_cpu_usage_seconds_total{container!=\"\",pod=~\"$Pod\",node=~\"$Node\"}[1m]))",
@@ -1363,7 +1363,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_cpu_usage_seconds_total{container!=\"\",node=~\"$Node\"}[1m]))",
@@ -1457,7 +1457,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_working_set_bytes{pod=~\"$Pod\",node=~\"$Node\"}) / sum(machine_memory_bytes{node=~\"$Node\"}) * 100",
@@ -1595,7 +1595,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "kube_pod_container_status_restarts_total{pod=~\"$Pod\"}",
@@ -1689,7 +1689,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(rate(container_cpu_usage_seconds_total{pod=~\"$Pod\",node=~\"$Node\"}[1m])) / sum(machine_cpu_cores{node=~\"$Node\"}) * 100",
@@ -1791,7 +1791,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_working_set_bytes{pod=~\"$Pod\",node=~\"$Node\"})",
@@ -2285,7 +2285,7 @@
             "group": "prometheus",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "label": "node",
@@ -2323,7 +2323,7 @@
             "group": "prometheus",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "label": "pod",
@@ -2366,7 +2366,7 @@
             "group": "prometheus",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "label": "pod_ip",
@@ -2414,7 +2414,7 @@
             "group": "prometheus",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "label": "phase",
@@ -2457,7 +2457,7 @@
             "group": "prometheus",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "label": "container",

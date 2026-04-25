@@ -40,7 +40,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -61,7 +61,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -82,7 +82,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -201,7 +201,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -222,7 +222,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -243,7 +243,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -362,7 +362,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -383,7 +383,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -502,7 +502,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -703,7 +703,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -797,7 +797,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -891,7 +891,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -985,7 +985,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1079,7 +1079,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1176,7 +1176,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1273,7 +1273,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1372,7 +1372,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1471,7 +1471,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1570,7 +1570,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1669,7 +1669,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1768,7 +1768,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1866,7 +1866,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -1964,7 +1964,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2064,7 +2064,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2162,7 +2162,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2261,7 +2261,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2343,7 +2343,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2425,7 +2425,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2507,7 +2507,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2589,7 +2589,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2671,7 +2671,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2771,7 +2771,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2871,7 +2871,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2971,7 +2971,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -2992,7 +2992,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -3013,7 +3013,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -3647,13 +3647,13 @@
         "kind": "ConstantVariable",
         "spec": {
           "current": {
-            "text": "aera1reu03n5sc",
-            "value": "aera1reu03n5sc"
+            "text": "cfk4r7vhv4a9se",
+            "value": "cfk4r7vhv4a9se"
           },
           "hide": "hideVariable",
           "label": "Cluster",
           "name": "cluster",
-          "query": "aera1reu03n5sc",
+          "query": "cfk4r7vhv4a9se",
           "skipUrlSync": true
         }
       },
@@ -3692,13 +3692,13 @@
         "kind": "ConstantVariable",
         "spec": {
           "current": {
-            "text": "aera1reu03n5sc",
-            "value": "aera1reu03n5sc"
+            "text": "cfk4r7vhv4a9se",
+            "value": "cfk4r7vhv4a9se"
           },
           "hide": "hideVariable",
           "label": "Datasource",
           "name": "datasource",
-          "query": "aera1reu03n5sc",
+          "query": "cfk4r7vhv4a9se",
           "skipUrlSync": true
         }
       },
@@ -3720,7 +3720,7 @@
           "options": [],
           "query": {
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "group": "prometheus",
             "kind": "DataQuery",
@@ -3760,7 +3760,7 @@
           "options": [],
           "query": {
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "group": "prometheus",
             "kind": "DataQuery",

@@ -65,7 +65,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -156,7 +156,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -247,7 +247,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -338,7 +338,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -429,7 +429,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -521,7 +521,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -648,7 +648,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -775,7 +775,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -902,7 +902,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",
@@ -925,7 +925,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "app": "grafana-assistant-app",

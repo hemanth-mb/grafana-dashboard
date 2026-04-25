@@ -65,7 +65,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_usage_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (namespace,container_name)",
@@ -88,7 +88,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_quota{container_name=\"$container\", namespace=\"$namespace\"} / container_spec_cpu_period{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name)",
@@ -109,7 +109,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"} / 1024) by (namespace,container_name) ",
@@ -232,7 +232,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_usage_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (namespace,container_name) / sum(container_spec_cpu_quota{container_name=\"$container\", namespace=\"$namespace\"} / container_spec_cpu_period{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name)",
@@ -358,7 +358,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / sum(container_spec_memory_limit_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name)",
@@ -483,7 +483,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_system_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (namespace,container_name) / sum(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"} / 1024) by (namespace,container_name)",
@@ -504,7 +504,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_user_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (namespace,container_name) / sum(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"} / 1024) by (namespace,container_name)",
@@ -660,7 +660,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_usage_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (id,pod_name)",
@@ -682,7 +682,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_quota{container_name=\"$container\", namespace=\"$namespace\"} / container_spec_cpu_period{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -703,7 +703,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"} / 1024) by (namespace,container_name) / count(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -826,7 +826,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (id,pod_name)",
@@ -848,7 +848,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_memory_limit_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (container_name,namespace)",
@@ -971,7 +971,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(haproxy_backend_http_responses_total{app=\"$container\", kubernetes_namespace=\"$namespace\",code=\"5xx\"}[30s])) by (app,kubernetes_namespace) / sum(irate(haproxy_backend_http_responses_total{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace)",
@@ -993,7 +993,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(http_requests_total{app=\"$container\", handler!=\"prometheus\", kubernetes_namespace=\"$namespace\", code=~\"5[0-9]+\"}[30s])) by (kubernetes_namespace,app) / sum(irate(http_requests_total{app=\"$container\", handler!=\"prometheus\", kubernetes_namespace=\"$namespace\"}[30s])) by (kubernetes_namespace,app)",
@@ -1014,7 +1014,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(nginx_http_requests_total{app=\"$container\", kubernetes_namespace=\"$namespace\", status=~\"5[0-9]+\"}[30s])) by (kubernetes_namespace,app) / sum(irate(nginx_http_requests_total{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (kubernetes_namespace,app)",
@@ -1137,7 +1137,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name)",
@@ -1159,7 +1159,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_memory_limit_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name)",
@@ -1282,7 +1282,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(http_requests_total{app=\"$container\", handler!=\"prometheus\", kubernetes_namespace=\"$namespace\"}[30s])) by (kubernetes_namespace,app,code)",
@@ -1304,7 +1304,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(nginx_http_requests_total{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (kubernetes_namespace,app,status)",
@@ -1326,7 +1326,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(haproxy_backend_http_responses_total{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,code)",
@@ -1449,7 +1449,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.99, sum(rate(http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1470,7 +1470,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.90, sum(rate(http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1491,7 +1491,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.5, sum(rate(http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1513,7 +1513,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.99, sum(rate(nginx_http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1534,7 +1534,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.9, sum(rate(nginx_http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1555,7 +1555,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "histogram_quantile(0.5, sum(rate(nginx_http_request_duration_seconds_bucket{app=\"$container\", kubernetes_namespace=\"$namespace\"}[30s])) by (app,kubernetes_namespace,le))",
@@ -1677,7 +1677,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "count(count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (pod_name))",
@@ -1699,7 +1699,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "count(count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (kubernetes_io_hostname))",
@@ -1823,7 +1823,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(irate(container_cpu_usage_seconds_total{container_name=\"$container\", namespace=\"$namespace\"}[30s])) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -1845,7 +1845,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_quota{container_name=\"$container\", namespace=\"$namespace\"} / container_spec_cpu_period{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -1867,7 +1867,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"} / 1024) by (namespace,container_name) / count(container_spec_cpu_shares{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -1990,7 +1990,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -2012,7 +2012,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "cfk4r7vhv4a9se"
                       },
                       "spec": {
                         "expr": "sum(container_spec_memory_limit_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) / count(container_memory_usage_bytes{container_name=\"$container\", namespace=\"$namespace\"}) by (namespace,container_name) ",
@@ -2448,7 +2448,7 @@
             "group": "datasource",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "__legacyStringValue": "label_values(container_memory_usage_bytes{namespace=~\".+\",container_name!=\"POD\"},namespace)"
@@ -2480,7 +2480,7 @@
             "group": "datasource",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "cfk4r7vhv4a9se"
             },
             "spec": {
               "__legacyStringValue": "label_values(container_memory_usage_bytes{namespace=~\"$namespace\",container_name!=\"POD\"},container_name)"
