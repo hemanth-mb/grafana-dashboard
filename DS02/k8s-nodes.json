@@ -62,7 +62,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "rate(node_network_transmit_bytes_total{instance=\"$server\",device!~\"lo\"}[5m])",
@@ -196,7 +196,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "100 - (avg by (cpu) (irate(node_cpu_seconds_total{mode=\"idle\", instance=\"$server\"}[5m])) * 100)",
@@ -318,7 +318,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_memory_MemTotal_bytes{instance=\"$server\"} - node_memory_MemFree_bytes{instance=\"$server\"} - node_memory_Buffers_bytes{instance=\"$server\"} - node_memory_Cached_bytes{instance=\"$server\"}",
@@ -342,7 +342,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_memory_Buffers_bytes{instance=\"$server\"}",
@@ -366,7 +366,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_memory_Cached_bytes{instance=\"$server\"}",
@@ -389,7 +389,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_memory_MemFree_bytes{instance=\"$server\"}",
@@ -528,7 +528,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "((node_memory_MemTotal_bytes{instance=\"$server\"} - node_memory_MemFree_bytes{instance=\"$server\"}  - node_memory_Buffers_bytes{instance=\"$server\"} - node_memory_Cached_bytes{instance=\"$server\"}) / node_memory_MemTotal_bytes{instance=\"$server\"}) * 100",
@@ -630,7 +630,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum by (instance) (rate(node_nfsd_disk_bytes_read_total{instance=\"$server\"}[2m]))",
@@ -653,7 +653,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum by (instance) (rate(node_nfsd_disk_bytes_written_total{instance=\"$server\"}[2m]))",
@@ -675,7 +675,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum by (instance) (rate(node_disk_io_time_seconds_total{instance=\"$server\"}[2m]))",
@@ -828,7 +828,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "(sum(node_filesystem_size_bytes{device!=\"rootfs\",instance=\"$server\"}) - sum(node_filesystem_free_bytes{device!=\"rootfs\",instance=\"$server\"})) / sum(node_filesystem_size_bytes{device!=\"rootfs\",instance=\"$server\"})",
@@ -930,7 +930,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "rate(node_network_receive_bytes_total{instance=\"$server\",device!~\"lo\"}[5m])",
@@ -1064,7 +1064,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_load1{instance=\"$server\"}",
@@ -1086,7 +1086,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_load5{instance=\"$server\"}",
@@ -1108,7 +1108,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "node_load15{instance=\"$server\"}",
@@ -1366,7 +1366,7 @@
             "group": "datasource",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "afk4rkq6ejgg0b"
             },
             "spec": {
               "__legacyStringValue": "label_values(node_boot_time_seconds, instance)"

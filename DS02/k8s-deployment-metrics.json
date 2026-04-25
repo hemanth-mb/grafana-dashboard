@@ -65,7 +65,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_network_receive_bytes_total{image!=\"\",name=~\"^k8s_.*\",pod_name=~\"^$Deployment.*$\"}[1m])) by (io_kubernetes_pod_name)",
@@ -88,7 +88,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "- sum (rate (container_network_transmit_bytes_total{image!=\"\",name=~\"^k8s_.*\",pod_name=~\"^$Deployment.*$\"}[1m])) by (io_kubernetes_pod_name)",
@@ -213,7 +213,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{image!=\"\",name=~\"^k8s_.*\",pod_name=~\"^$Deployment.*$\"}[1m])) by (io_kubernetes_pod_name)",
@@ -337,7 +337,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{id!=\"/\",pod_name=~\"^$Deployment.*$\"}[1m])) by (id)",
@@ -461,7 +461,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{image!=\"\",name=~\"^k8s_.*\",io_kubernetes_container_name!=\"POD\",pod_name=~\"^$Deployment.*$\"}[1m])) by (io_kubernetes_container_name, io_kubernetes_pod_name)",
@@ -484,7 +484,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{image!=\"\",name!~\"^k8s_.*\",pod_name=~\"^$Deployment.*$\"}[1m])) by (pod_name, name, image)",
@@ -507,7 +507,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{rkt_container_name!=\"\",pod_name=~\"^$Deployment.*$\"}[1m])) by (pod_name, rkt_container_name)",
@@ -631,7 +631,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (container_memory_working_set_bytes{image!=\"\",name=~\"^k8s_.*\",pod_name=~\"^$Deployment.*$\"}) by (io_kubernetes_pod_name)",
@@ -756,7 +756,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (container_memory_working_set_bytes{id!=\"/\",pod_name=~\"^$Deployment.*$\"}) by (id)",
@@ -881,7 +881,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_network_receive_bytes_total{id!=\"/\",pod_name=~\"^$Deployment.*$\"}[1m])) by (id)",
@@ -904,7 +904,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "- sum (rate (container_network_transmit_bytes_total{id!=\"/\",pod_name=~\"^$Deployment.*$\"}[1m])) by (id)",
@@ -1029,7 +1029,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum(kube_deployment_status_replicas_available{deployment=~\"^$Deployment$\"}) / sum(kube_deployment_status_replicas{deployment=~\"^$Deployment$\"}) * 100",
@@ -1125,7 +1125,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (container_memory_working_set_bytes{pod_name=~\"^$Deployment.*$\"})",
@@ -1219,7 +1219,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (container_memory_working_set_bytes{kubernetes_io_hostname=~\"^$Node.*$\"})",
@@ -1313,7 +1313,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (container_memory_working_set_bytes{pod_name=~\"^$Deployment.*$\"}) / sum (machine_memory_bytes{kubernetes_io_hostname=~\"^$Node$\"}) * 100",
@@ -1414,7 +1414,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{pod_name=~\"^$Deployment.*$\"}[1m]))",
@@ -1508,7 +1508,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (machine_cpu_cores{kubernetes_io_hostname=~\"^$Node$\"})",
@@ -1602,7 +1602,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum(kube_deployment_status_replicas_available{deployment=~\"^$Deployment$\"})",
@@ -1696,7 +1696,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum(kube_deployment_status_replicas{deployment=~\"^$Deployment$\"})",
@@ -1790,7 +1790,7 @@
                       "group": "prometheus",
                       "version": "v0",
                       "datasource": {
-                        "name": "aera1reu03n5sc"
+                        "name": "afk4rkq6ejgg0b"
                       },
                       "spec": {
                         "expr": "sum (rate (container_cpu_usage_seconds_total{pod_name=~\"^$Deployment.*$\"}[1m])) / sum (machine_cpu_cores{kubernetes_io_hostname=~\"^$Node$\"}) * 100",
@@ -2133,7 +2133,7 @@
             "group": "datasource",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "afk4rkq6ejgg0b"
             },
             "spec": {
               "__legacyStringValue": "label_values(deployment)"
@@ -2165,7 +2165,7 @@
             "group": "datasource",
             "version": "v0",
             "datasource": {
-              "name": "aera1reu03n5sc"
+              "name": "afk4rkq6ejgg0b"
             },
             "spec": {
               "__legacyStringValue": "label_values(kubernetes_io_hostname)"
