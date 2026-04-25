@@ -3,7 +3,7 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "k8s-views-ns-metrics-ds01",
-    // "namespace": "default",
+    "namespace": "metrics-ds01",
     "uid": "5466b163-f3db-4924-800f-1779b4ba0626",
     "resourceVersion": "1776783284220019",
     "generation": 1,
