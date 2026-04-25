@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "k8s-nginx-ingress-prjname-clstname",
+    "name": "k8s-nginx-ingress-metrics-ds02",
     "namespace": "default",
     "uid": "a05f5828-9b6b-44e7-9452-77565d04182a",
     "resourceVersion": "1776782529235017",

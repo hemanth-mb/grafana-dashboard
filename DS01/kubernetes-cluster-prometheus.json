@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "eksdemodb-prjname-clstname",
+    "name": "eksdemodb-metrics-ds01",
     "namespace": "default",
     "uid": "a79040b1-9e6c-4509-b14d-5f52dcafd4f4",
     "resourceVersion": "1776781884345013",

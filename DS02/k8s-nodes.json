@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "dUMN5x0mk-prjname-clstname",
+    "name": "dUMN5x0mk-metrics-ds02",
     "namespace": "default",
     "uid": "e72b554b-f6ee-488e-b12b-c0e0d5374e28",
     "resourceVersion": "1776782692003999",

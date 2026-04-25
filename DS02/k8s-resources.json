@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "ad2kv4p-single-prjname-clstname",
+    "name": "ad2kv4p-single-metrics-ds02",
     "namespace": "default",
     "uid": "3fee2d98-ddc1-456c-a25e-e9e98a5e5d3e",
     "resourceVersion": "1776785571679991",

@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "taQlRuxik-prjname-clstname"
+    "name": "taQlRuxik-metrics-ds01"
   },
   "spec": {
     "annotations": [

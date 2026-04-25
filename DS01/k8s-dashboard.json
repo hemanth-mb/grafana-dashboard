@@ -2,7 +2,7 @@
   "apiVersion": "dashboard.grafana.app/v2",
   "kind": "Dashboard",
   "metadata": {
-    "name": "k8s-dashboard-prjname-cltname",
+    "name": "k8s-dashboard-metrics-ds01",
     "namespace": "default",
     "uid": "6ca2882c-9dbe-46e6-9a0f-d37ef167cd16",
     "resourceVersion": "1776781188389986",
