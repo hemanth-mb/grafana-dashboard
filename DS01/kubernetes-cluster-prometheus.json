@@ -3,7 +3,6 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "eksdemodb-metrics-ds01",
-    "namespace": "metrics-ds01",
     "uid": "a79040b1-9e6c-4509-b14d-5f52dcafd4f4",
     "resourceVersion": "1776781884345013",
     "generation": 1,

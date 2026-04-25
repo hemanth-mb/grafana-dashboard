@@ -3,7 +3,6 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "4XuMd2Iiz-metrics-ds01",
-    "namespace": "metrics-ds01",
     "uid": "8bdd5e58-7350-479d-b98f-b8fb078010fb",
     "resourceVersion": "1776781797668999",
     "generation": 1,

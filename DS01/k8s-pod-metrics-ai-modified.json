@@ -3,7 +3,6 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "k8s-pod-metrics-metrics-ds01",
-    "namespace": "metrics-ds01",
     "uid": "925d121a-4e86-4a9b-9c04-3239dcb9935b",
     "resourceVersion": "1776787398058980",
     "generation": 4,
